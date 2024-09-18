@@ -87,7 +87,7 @@ public class RainManager : MonoBehaviour
 
     private void UpdateRainText()
     {
-        rainText.text = "Rain: " + rainPoints;
+        rainText.text = "" + rainPoints;
     }
 
     public void AddRain(int amount)
